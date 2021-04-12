@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="styles/defaultStyle.css" type="text/css">
+		<link rel="stylesheet" href="styles/contactStyle.css" type="text/css">
+		<title> Brouwerij Kwartje </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<header>	
+			<nav>
+				<a href="index.html"> Home </a>
+				<a href="beers.html"> Beers </a>
+				<a href="nieuws.html "> Nieuws </a>
+				<a href="contact.html "> Contact </a>
+				<a href="overons.html "> Over ons </a>
+				<a class="loginbutton" href="login.html "> Login </a>
+			</nav>
+			<hr> 
+		</header>
+		
+		<form id="form-id">
+				<div class="personalinfo">
+					<label for="firstname">Voornaam: </label> 
+					<input type="text" id="firstname" placeholder="Uw naam"> <br>
+					
+					<label for="email">Email: </label> 
+					<input type="email" id="email" placeholder="email@example.com"> <br>
+				</div>
+				<div class="message">
+					<label for="bericht">Bericht: </label> <br>
+					<textarea id="bericht" placeholder="Typ hier uw bericht"> 
+					</textarea>
+				</div>		
+		</form>
+		
+		<button class="submitbutton" type="submit" form="form-id"> Verzenden </button>
+	</body>
+</html>

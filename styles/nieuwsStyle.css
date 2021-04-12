@@ -1,0 +1,58 @@
+/*  Plaatst het nieuws in het midden */
+.nieuws{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    width: 90wh;
+}
+
+/* Geeft wat padding aan kop kop */
+h2{
+    padding-left: 40px;
+    font-size: 20pt;
+}
+
+/* Geeft padding aan de tekst in het nieuwsartikel */
+p{
+    padding: 40px;
+}
+
+/* Geeft vorm aan de container waar het nieuws in staat */
+.nieuwsartikel{
+    height: 500px;
+    width: 40vw;
+    background-color: white;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+/* Plaats het aanmelden van de nieuws brief in het midden */
+.aanmeldennieuwsbrief{
+    justify-content: center;
+    display: flex;
+    flex-flow: wrap;
+    color: white;
+}
+
+/* Geeft breedte aan de container van het aanmelden van de nieuwsbrief */
+.container{
+    width: 500px;
+}
+
+
+/* Maakt het input veld van het aanmelden van de nieuwsbrief groter */
+input{
+    height: 50px;
+    width: 500px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* Geeft styling aan de button */
+button{
+    font-weight: bold;
+    font-size: 24pt;
+    height: 50px;
+    width: 500px;
+    border-radius: 15px;
+}

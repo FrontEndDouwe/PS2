@@ -1,0 +1,34 @@
+/* Plaatst het login form in het midden */
+body{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+/* Duwt het login form iets naar boven */
+.loginwindow{
+    margin-top: -200px;
+    flex-flow: wrap;
+}
+
+/* Maakt het label wit en bold */
+label{
+    color: white;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+/* Maakt het inputveld hoger en breder */
+input{
+    height: 50px;
+    width: 300px;
+}
+
+/* Geeft styling aan de button */
+button{
+    height: 75px;
+    width: 300px;
+    border-radius: 25px;
+    font-size: 24pt;
+    font-weight: bold;
+}

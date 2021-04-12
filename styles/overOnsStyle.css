@@ -1,0 +1,26 @@
+/* Zet alles in het midden van de pagina */
+.containerOverOns{
+    display: flex;
+    flex-flow: wrap;
+    height: 90vh;
+    width: 90w;
+}
+
+/* Geeft een andere hoogte en breedte aan de foto van de brouwers */
+img{
+    height:700px;
+    width: 600px;
+}
+
+/* Geeft wat padding aan de foto van de brouwers */
+.fotoBrouwers{
+    padding: 50px;
+}
+
+/* Maakt de tekst over de brouwers wit */
+.infoBrouwers{
+    color: white;
+    width: 50vw;
+    padding: 50px;
+    font-size: 24pt;
+}

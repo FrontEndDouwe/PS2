@@ -1,0 +1,37 @@
+/* Maakt de foto van het bierflesje kleiner */
+img{
+    height: 600px;
+    width: 150px;
+}
+
+/* Zet de header in het midden van de pagina */
+h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 32pt;
+}
+
+/* Plaatst het refresh bier links op de pagina */
+.refresh{
+    float: left;
+    width: 50%;
+}
+
+/* Plaatst het bruteforce bier rechts op de pagina */
+.bruteForce{
+    float: left;
+    width: 50%;
+}
+
+/* zorgt ervoor de de afbeelding in het midden staat */
+a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Zoomt de afbeelding in als je er overheen hovert */
+img:hover{
+    transform: scale(1.2);
+}

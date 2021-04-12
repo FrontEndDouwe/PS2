@@ -1,0 +1,43 @@
+/* Zorgt dat het form in het midden van de webpagina staat */
+body{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+/* Maakt de breedte van het form 90 viewwidth */
+form{
+    width: 90vw;
+}
+
+/* Geeft styling aan de button */
+button{
+    height: 100px;
+    width: 500px;
+    border-radius: 25px;
+    font-family: "Segoe UI";
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+
+/* Maakt het label wit en bold */
+label{
+    color: white;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+
+/* geeft het input veld een breedte van 80 viewwidth en plaats het aan de rechterkant van het form */
+input{
+    float: right;
+    width: 80vw;
+    margin-top: 10px;
+}
+
+/* Maakt de textarea groter */
+textarea{
+    height: 40vh;
+    width: 100%;
+}

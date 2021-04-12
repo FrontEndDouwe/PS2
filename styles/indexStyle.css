@@ -1,0 +1,23 @@
+/* Styling die van toepassing is op index.html */
+
+/* Zorgt er voor dat alles in het midden van de webpagina staat */
+.container{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+
+/* Zorgt ervoor dat er wat ruimte naast en boven de afbeelding is */
+img{
+    margin-top: 50px;
+    width: 90%;
+}
+
+
+/* Zet de tekst in het wit neer op de webpagina */
+p{
+    color: white;
+    font-weight: bold;
+    font-size: 32pt;
+}
