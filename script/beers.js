@@ -27,7 +27,7 @@ var bruteForce = new bier(
     93,
     3.59,
     "De brute force is een lekker zwaar biertje, vol van smaak met een stevige afdronk. Door het gebruik van gerookte mout krijgt de brute force zijn unieke smaak die hem onderscheid van andere bieren.",
-    "images/rsz_bruteforceUitgesneden.png"
+    "images/rsz_bruteforceuitgesneden.png"
 );
 
 var ddos = new bier(
