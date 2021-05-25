@@ -10,15 +10,23 @@
 		<header>
 			<nav>
 				<a href="index.html"> Home </a>
-				<a href="beers.html"> Beers </a>
+				<a href="beers.html"> Bieren </a>
 				<a href="nieuws.html "> Nieuws </a>
 				<a href="contact.html "> Contact </a>
 				<a href="overons.html "> Over ons </a>
-				<a class="loginbutton" href="login.html "> Login </a>
+				<a id="dezepagina" class="loginbutton" href="login.html "> Login </a>
 			</nav>
 			<hr>
 		</header>	 
+
+		<div id="breadcrumbcontainer">
+            <div id="breadcrumb">
+                <a class="underline" href="index.html"> Home</a>
+                <a class="nohover" href="login.html"> > Login</a>
+            </div>
+        </div>
 			
+		<main>
 			<div class="loginwindow">
 				<br> <br>
 				<label for="login">Gebruikersnaam: </label> <br>
@@ -28,9 +36,9 @@
 				<input type="password" id="wachtwoord" placeholder=""> <br>
 				
 				<br> <br> 
-				<a href="logedin.html">
+				<a href="index.html">
 					<button class="loginbut"> Log in </button>
 				</a>	
 			</div>
-		</header>
+		</main>	
 </html>

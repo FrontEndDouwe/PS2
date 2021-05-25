@@ -10,15 +10,23 @@
 		<header>	
 			<nav>
 				<a href="index.html"> Home </a>
-				<a href="beers.html"> Beers </a>
+				<a href="beers.html"> Bieren </a>
 				<a href="nieuws.html "> Nieuws </a>
 				<a href="contact.html "> Contact </a>
-				<a href="overons.html "> Over ons </a>
+				<a id="dezepagina" href="overons.html "> Over ons </a>
 				<a class="loginbutton" href="login.html "> Login </a>
 			</nav>	
 			<hr>
 		</header>
-		<div class="containerOverOns">
+
+		<div id="breadcrumbcontainer">
+            <div id="breadcrumb">
+                <a class="underline" href="index.html"> Home</a>
+                <a class="nohover" href="overons.html">> Over Ons</a>
+            </div>
+        </div>
+
+		<main class="containerOverOns">
 			<div class="fotobrouwers">
 				<img src="images/rsz_team-kwartje-nieuw.jpg">
 			</div>
@@ -42,7 +50,19 @@
 				vriendengroep uit het verleden waar de brouwers elkaar hebben leren kennen. 
 				Jaren later bij het brouwen van bier is besloten deze naam nieuw leven in te blazen.
 			</div>
-		</div>	
+		</main>	
+
+		<footer>
+			<div id="adres">
+				<h5> Brouwerij Kwartje </h5>
+				<h5> Zamenhofstraat 90 </h5>
+				<h5> 2518 LB Den Haag</h5>
+			</div>
+
+			<div id="contactgegevens">
+				<h5> email@email.com </h5>
+			</div>
+		</footer>
+
 	</body>
-</html>
 </html>
