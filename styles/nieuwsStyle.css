@@ -6,6 +6,7 @@
     width: 90wh;
 }
 
+
 /* Geeft wat padding aan kop kop */
 h2{
     padding-left: 40px;
@@ -19,19 +20,17 @@ p{
 
 /* Geeft vorm aan de container waar het nieuws in staat */
 .nieuwsartikel{
-    height: 500px;
-    width: 40vw;
+    height: 700px;
+    width: 25vw;
     background-color: white;
     margin: 50px;
-    border-radius: 10px;
 }
 
 /* Plaats het aanmelden van de nieuws brief in het midden */
 .aanmeldennieuwsbrief{
-    justify-content: center;
-    display: flex;
-    flex-flow: wrap;
     color: white;
+    position: relative;
+    left: 690px;
 }
 
 /* Geeft breedte aan de container van het aanmelden van de nieuwsbrief */
@@ -39,15 +38,26 @@ p{
     width: 500px;
 }
 
+.nieuwsartikel:hover{
+    cursor: pointer;
+}
 
 /* Maakt het input veld van het aanmelden van de nieuwsbrief groter */
-input{
+input[type=email]{
     height: 50px;
     width: 500px;
-    border-radius: 15px;
     padding: 10px;
     margin-bottom: 30px;
+    margin: 0px;
 }
+
+input[type=submit]{
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+}
+
+
 
 /* Geeft styling aan de button */
 button{
@@ -56,4 +66,30 @@ button{
     height: 50px;
     width: 500px;
     border-radius: 15px;
+}
+
+aside{
+    position: relative;
+    top: -750px;
+    height: 700px;
+    width: 15vw;
+    background-color: white;
+    float: right;
+}
+
+aside>a{
+    color: black;
+    font-size: 16px;
+    font-weight: 100;
+    padding-left: 75px;
+}
+
+aside>h2{
+    margin-bottom: 50px;
+}
+
+#aanmeldtekst{
+    position: relative;
+    left: 750px;
+    color:white;
 }

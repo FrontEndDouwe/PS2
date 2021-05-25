@@ -1,0 +1,78 @@
+html{
+    margin: 0;
+}
+
+main{
+    display: flex;
+    flex-flow: wrap;
+    height: 50vh;
+}
+
+aside#left{
+    width: 15vw;
+    margin-right: 5vw;
+    background-color: black; 
+}
+
+article{
+    width: 49vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    background-color: white;
+}
+
+article>h2{
+    padding: 20px;
+}
+
+article>p{
+    padding: 20px;
+}
+
+aside#right{
+    width: 15vw;
+    margin-left: 5vw;
+    background-color: white;
+}
+
+aside>a{
+    color: black;
+}
+
+aside>h2{
+    padding: 20px;
+}
+
+aside>a{
+    padding: 20px;
+    font-size: 20px;
+}
+
+#aanmeldennieuwsbrief{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+div>h2{
+    text-align: center;
+    color: white;
+}
+/* Maakt het input veld van het aanmelden van de nieuwsbrief groter */
+input[type=email]{
+    height: 50px;
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin: 0px;
+}
+
+input[type=submit]{
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+}
+
+footer{
+    margin-top: 250px;
+}

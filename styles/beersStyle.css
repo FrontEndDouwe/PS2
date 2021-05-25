@@ -1,37 +1,70 @@
-/* Maakt de foto van het bierflesje kleiner */
-img{
+body{
+    background-color: black;
+}
+
+.bier{
+    background-color: white;
+    border-radius: 25px;
     height: 600px;
-    width: 150px;
+    width: 400px;
+    margin: 20px;
 }
 
-/* Zet de header in het midden van de pagina */
+#bierOverzicht{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+h1, h2{
+    text-align: center;
+    margin: 0;
+}
+
 h2{
+    font-weight: 100;
+}
+
+img{
     display: flex;
     justify-content: center;
+    margin-left: 140px;
+    height: 400px;
+}
+
+.bier:hover{
+    transform: scale(1.1);
+}
+
+#percentage{
+    float: left;
+    padding-left: 20px;
+}
+
+#prijs{
+    float: right;
+    padding-right: 20px;
+}
+
+#fotoBierOverzicht{
+    display: flex;
+    justify-content: center;
+}
+
+#headline{
     color: white;
-    font-size: 32pt;
 }
 
-/* Plaatst het refresh bier links op de pagina */
-.refresh{
-    float: left;
-    width: 50%;
+button{
+    height: 50px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 5px;
+    background-color: rgb(17, 17, 90);
+    color: white;
+    font-weight: bold;
 }
 
-/* Plaatst het bruteforce bier rechts op de pagina */
-.bruteForce{
-    float: left;
-    width: 50%;
-}
-
-/* zorgt ervoor de de afbeelding in het midden staat */
-a{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-/* Zoomt de afbeelding in als je er overheen hovert */
-img:hover{
-    transform: scale(1.2);
+#foto{
+    margin: 0px;
 }
