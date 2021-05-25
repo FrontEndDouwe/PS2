@@ -2,18 +2,21 @@ html{
     margin: 0;
 }
 
+/* Zet alles in de main in het midden van de pagina */
 main{
     display: flex;
     flex-flow: wrap;
     height: 50vh;
 }
 
+/* Zet een aside links neer met dezelfde achtergrond kleur als de pagina zodat je hem niet zit */
 aside#left{
     width: 15vw;
     margin-right: 5vw;
     background-color: black; 
 }
 
+/* Zet een article naast de linker aside neer */
 article{
     width: 49vw;
     margin-left: 5vw;
@@ -21,43 +24,54 @@ article{
     background-color: white;
 }
 
+/* Geeft de h2 in een article padding */
 article>h2{
     padding: 20px;
 }
 
+/* Geeft de paragraph in een article padding */
 article>p{
     padding: 20px;
 }
 
+/* Zet rechts van het article een aside neer */
 aside#right{
     width: 15vw;
     margin-left: 5vw;
     background-color: white;
 }
 
+
+/* Maakt de tekst in de aside zwart */
 aside>a{
     color: black;
 }
 
+/* Geeft de h2 in de aside padding */
 aside>h2{
     padding: 20px;
 }
 
+/* geeft de link in de aside padding */
 aside>a{
     padding: 20px;
     font-size: 20px;
 }
 
+
+/* Plaatst het deel met aanmelden voor de nieuwsbrief in het midden */
 #aanmeldennieuwsbrief{
     width: 100vw;
     display: flex;
     justify-content: center;
 }
 
+/* Maakt de h2 voor het aanmelden van de nieuwsbrief wit */
 div>h2{
     text-align: center;
     color: white;
 }
+
 /* Maakt het input veld van het aanmelden van de nieuwsbrief groter */
 input[type=email]{
     height: 50px;
@@ -67,12 +81,14 @@ input[type=email]{
     margin: 0px;
 }
 
+/* Geeft vorm aan de sumbit button */
 input[type=submit]{
     height: 50px;
     width: 100px;
     padding: 10px;
 }
 
+/* Duwt de footer naar onder */
 footer{
     margin-top: 250px;
 }

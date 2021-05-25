@@ -38,6 +38,7 @@ p{
     width: 500px;
 }
 
+/* Geeft een andere curser als je over een nieuwsartikel heen hovered */
 .nieuwsartikel:hover{
     cursor: pointer;
 }
@@ -51,6 +52,7 @@ input[type=email]{
     margin: 0px;
 }
 
+/* Geeft vorm aan de submit button */
 input[type=submit]{
     height: 50px;
     width: 100px;
@@ -68,6 +70,7 @@ button{
     border-radius: 15px;
 }
 
+/* Plaats rechts een aside */
 aside{
     position: relative;
     top: -750px;
@@ -77,6 +80,7 @@ aside{
     float: right;
 }
 
+/* Maakt de links in de aside zwart */
 aside>a{
     color: black;
     font-size: 16px;
@@ -84,10 +88,12 @@ aside>a{
     padding-left: 75px;
 }
 
+/* Geeft de h2 in de aside wat extra margin */
 aside>h2{
     margin-bottom: 50px;
 }
 
+/* Zet de aanmeldtekst in het midden */
 #aanmeldtekst{
     position: relative;
     left: 750px;

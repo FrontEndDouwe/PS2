@@ -41,6 +41,7 @@ a{
     font-weight: 100;
 }
 
+/* Maakt in de header de pagina waar je bent bold */
 a#dezepagina{
     font-weight: bold;
 }
@@ -51,22 +52,26 @@ a:hover{
 }
 
 
+/* Maakt de footer grijs */
 footer{
     background-color: grey;
     width: 100vw;
     height: 100px;
 }
 
+/* Zet de adresgegevens linksonder in de footer */
 #adres{
     float: left;
     padding-left: 100px;
 }
 
+/* Zet de contactgegevens rechtsonder in de footer */
 #contactgegevens{
     float: right;
     padding-right: 100px;
 }
 
+/* Maakt de h5 wit en regular */
 h5{
     margin: 10;
     color: white;

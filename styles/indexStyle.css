@@ -24,6 +24,7 @@ p.regular{
     margin-bottom: 100px;
 }
 
+/* Zorgt dat de imagecontainer even breed is als het beeldscherm */
 .imagecontainer{
     width: 100%;
 }

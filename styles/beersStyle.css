@@ -1,7 +1,4 @@
-body{
-    background-color: black;
-}
-
+/* Geeft de card van het bier vorm en achtergrondkleur */
 .bier{
     background-color: white;
     border-radius: 25px;
@@ -10,21 +7,25 @@ body{
     margin: 20px;
 }
 
+/* Zorgt ervoor dat de card van het bier in het midden van de pagina staan */
 #bierOverzicht{
     display: flex;
     flex-flow: wrap;
     justify-content: center;
 }
 
+/* Zet de h1 en h2 in het midden */
 h1, h2{
     text-align: center;
     margin: 0;
 }
 
+/* Maakt de h2 regular */
 h2{
     font-weight: 100;
 }
 
+/* Zet de foto van het bierje in de card in het midden */
 img{
     display: flex;
     justify-content: center;
@@ -32,29 +33,35 @@ img{
     height: 400px;
 }
 
+/* Maakt de card groter als je er overheen hovered */
 .bier:hover{
     transform: scale(1.1);
 }
 
+/* Zet het alcholpercantage linksonderin de card */
 #percentage{
     float: left;
     padding-left: 20px;
 }
 
+/* Zet de prijs rechtsonder in de card */
 #prijs{
     float: right;
     padding-right: 20px;
 }
 
+/* Zet de foto van alle biertjes in het midden van de webpagina */
 #fotoBierOverzicht{
     display: flex;
     justify-content: center;
 }
 
+/* Maakt de headline wit */
 #headline{
     color: white;
 }
 
+/* Geeft vorm aan de button in de card */
 button{
     height: 50px;
     width: 80%;
@@ -65,6 +72,7 @@ button{
     font-weight: bold;
 }
 
+/* Zorgt dat de foto geen margin heeft */
 #foto{
     margin: 0px;
 }

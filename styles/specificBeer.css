@@ -1,64 +1,77 @@
+/* Zorgt dat alles in de body in het midden staat */
 body{
     display: flex;
     justify-content: center;
     flex-flow: wrap;
 }
 
+/* Bepaald de grote van de main */
 main{
     width: 90%;
     height: 90%;
 }
 
+/* Zet de foto van het biertje links op de pagina */
 #fotoContainer{
     float: left;
     height: 90%;
     width: 30%;
 }
 
+/* Geeft padding aan de foto zodat die op de juiste plek staat */
 #fotoBier{
 	padding: 100px 100px 100px 150px;
 }
 
+/* Geeft vorm aan de infobiercontainer */
 #infoBierContainer{
     width: 70%;
 }
 
+/* Zet de info en knoppen rechtboven op de webpagina */
 #infoBier{
     float: right;
     height: 60%;
     width: 70%;
 }
 
+/* Zet de info van het bier links van de buttons */
 #info{
     float: left;
     width: 50%;
     height: 100%;
 }
 
+/* Geeft de informatie tekst over het bier padding */
 #extraInfoContainer{
     padding: 100px;
 }
 
+/* Plaatst de buttons recht van de info over het bier */
 #buttons{
     float: right;
     width: 50%;
     height: 100%;
 }
 
+/* Geeft padding aan de buttons zodat ze op de juiste plek staan */
 #buttonContainer{
     padding: 120px 100px 100px 30px;
 }
 
+/* Zet de omschrijving van het bier rechtsonder op de pagina */
 #omschrijvingBier{
     float: right;
     height: 30%;
     width: 70%;
 }
 
+/* Geeft de p padding */
 p{
     padding: 100px;
 }
 
+/* Geeft vorm aan de drie buttons */
 button{
     border-radius: 30px;
     height: 75px;
@@ -71,60 +84,72 @@ button{
     font-size: 24pt;
 }
 
+/* Geeft kleur aan de winkelwagenbutton */
 button#winkelwagen{
     background-color: #3B50A2;
     box-shadow: 0 5px rgb(4, 9, 49);
 }
 
+/* Geeft kleur aan de untappd button */
 button#untappd{
 	background-color: #fc0;
     box-shadow: 0 5px rgb(117, 136, 9);
 }
 
+/* Geeft vorm aan de terug naar overzicht button */
 button#overzicht{
     background-color: #0F7B36;
     box-shadow: 0 5px rgb(2, 56, 18);
 }
 
+/* Geeft een andere kleur aan de winkelwagen button als je er overheen hovered */
 button#winkelwagen:hover{
     background-color: #1B2653;
     box-shadow: 0 5px rgb(4, 9, 49);
 }
 
+/* Geeft een andere kleur aan de untappd button als je er overheen hovered */
 button#untappd:hover{
 	background-color: #DFB300;
     box-shadow: 0 5px rgb(117, 136, 9);
 }
 
+/* Geeft een andere kleur aan de terug naar overzicht button als je er overheen hovered */
 button#overzicht:hover{
     background-color: #13572C;
     box-shadow: 0 5px rgb(2, 56, 18);
 }
 
+/* Maakt de tekst op de pagina wit */
 h1, h2, p{
     color: white;
 }
 
+/* Maakt de h2 regular */
 h2{
     font-weight: 100;
     margin: 0;
 }
 
+/* Geeft vorm aan de breadcrumb */
 .breadcrumb{
     font-size: 16px;
     font-weight: 100;
 }
 
+/* Zet een lijn onder de klikbare breadcrumb */
 .linkback{
     font-size: 16px;
     font-weight: 100;
     text-decoration: underline;
 }
 
+/* Bepaald de hoogte van een flesje bier */
 img{
 	height: 400px;
 }
 
+/* Bepaald de grote van het winkelwagen icoon */
 nav>img{
 	height: 50px;
 	margin: 15px;
@@ -132,6 +157,7 @@ nav>img{
 	border-radius: 5px;
 }
 
+/* Bepaald de grote met het nummertje van hoeveel er in je winkelwagen zit */
 #numberOfBeers{
 	background-color: white;
 	height: 20px;
